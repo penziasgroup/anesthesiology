@@ -1,0 +1,37 @@
+/*
+Custom CSS styles that override base theme go here.
+*/
+
+.front .region-secondary-content .hero-copy {
+  display:none;
+}
+
+.front .region-secondary-content .views-field-field-hero-image {
+  width:100%;
+  float:none;
+  margin:0;
+}
+
+.front .region-secondary-content .views-field-field-hero-image img {
+  width:100%;
+  display:block;
+}
+
+.pricing-grid p {
+  margin-bottom:0;
+}
+
+.schedule-block .view-grouping-header,
+.schedule-block caption h3 {
+  color:#9e2432;
+}
+
+tr.info,
+tr.even,
+tr:nth-child(2n+2) {
+  background-color:#bac5c6;
+}
+
+.pricing-grid td {
+  vertical-align:bottom;
+}
