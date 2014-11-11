@@ -2,16 +2,22 @@
 Custom CSS styles that override base theme go here.
 */
 
+.page-schedule .region-secondary-content .hero-copy,
+.page-accreditation .region-secondary-content .hero-copy,
 .front .region-secondary-content .hero-copy {
   display:none;
 }
 
+.page-schedule .region-secondary-content .views-field-field-hero-image,
+.page-accreditation .region-secondary-content .views-field-field-hero-image,
 .front .region-secondary-content .views-field-field-hero-image {
   width:100%;
   float:none;
   margin:0;
 }
 
+.page-schedule .region-secondary-content .views-field-field-hero-image img,
+.page-accreditation .region-secondary-content .views-field-field-hero-image img,
 .front .region-secondary-content .views-field-field-hero-image img {
   width:100%;
   display:block;
@@ -39,4 +45,9 @@ tr:nth-child(2n+2) {
 .view-grouping-header {
   border-bottom:1px solid #CCC;
   padding-bottom:10px;
+}
+
+.page-faculty .region-secondary-content .views-row-1 .hero-caption {
+  margin:0 0 0 2px;
+  display:block;
 }
